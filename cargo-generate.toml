@@ -1,4 +1,4 @@
 [placeholders.day]
 type = "string"
 prompt = "What day of advent of code?"
-regex = "^\d+{1,2}$"
+regex = "^[0-9]{1,2}$"
