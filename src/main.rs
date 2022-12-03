@@ -25,7 +25,7 @@ impl FromStr for Command {
 struct Day{{day}}(Vec<Command>);
 
 impl Day for Day{{day}} {
-    const DAY: u8 = 1;
+    const DAY: u8 = {{day}};
 
     fn from_input(input: String) -> Self {
         let lines: Vec<Command> = input.trim().split('\n').map(|line| {
